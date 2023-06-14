@@ -2,34 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
-.bg-image{
-    background-image: url("./assets/mesh.png");
-    background-size: cover;
-    background-position: center;
+.bg-image {
+  background-image: url("./assets/mesh.png");
+  background-size: cover;
+  background-position: center;
 }
-.text-gradient{
-    padding: 16px 0;
-    background-image: linear-gradient(43deg, #9795f0, #fbc8d4);
-    background-clip: text;
-    color: transparent;
-}
-
-
-body{
-    font-family: 'Rajdhani', sans-serif;
-}
-.novacut{
-    font-family: 'Nova Cut', cursive;
+.text-gradient {
+  padding: 16px 0;
+  background-image: linear-gradient(43deg, #9795f0, #fbc8d4);
+  background-clip: text;
+  color: transparent;
 }
 
-select{
-    @apply text-secondary
+body {
+  font-family: "Rajdhani", sans-serif;
 }
-select option{
-    @apply bg-[#110924] text-secondary
+.novacut {
+  font-family: "Nova Cut", cursive;
+}
+
+select {
+  @apply text-secondary;
+}
+select option {
+  @apply bg-[#110924] text-secondary;
 }
 
 input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button{
-    -webkit-appearance: none;
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
 }
