@@ -94,7 +94,7 @@ const App = () => {
       }
     >
       {isLoading ? (
-        <div className={" w-full z-30 h-full flex justify-center items-center"}>
+        <div className={" w-full z-30 h-full flex justify-center items-center "}>
           <div className={"w-full h-full md:w-1/2 md:h-1/2"}>
             <Lottie
               className={"object-cover w-full h-full"}
